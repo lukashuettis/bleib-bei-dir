@@ -1,5 +1,5 @@
 /* Bleib bei dir – Service Worker (offline-first für die App-Hülle) */
-const CACHE = "bbd-v6";
+const CACHE = "bbd-v7";
 const ASSETS = [
   "./",
   "./index.html",

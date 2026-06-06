@@ -9,6 +9,7 @@
 
   <link rel="manifest" href="manifest.webmanifest" />
   <meta name="theme-color" content="#eef1ff" />
+  <meta name="color-scheme" content="light" />
   <link rel="icon" href="icons/favicon-32.png" sizes="32x32" />
   <link rel="apple-touch-icon" href="icons/apple-touch-icon.png" />
   <meta name="apple-mobile-web-app-capable" content="yes" />
@@ -18,6 +19,7 @@
 
   <style>
     :root{
+      color-scheme: only light; /* verhindert Chrome-Android Auto-Dark-Theme (würde die helle App komisch invertieren) */
       --bg1:#eef1ff; --bg2:#dff5ef;
       --ink:#2f2b40; --muted:#6b6880;
       --card:#ffffff; --line:#ece9f6;
